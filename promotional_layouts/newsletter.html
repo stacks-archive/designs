@@ -42,7 +42,7 @@
 		* @theme page
 		*/
 		#bodyCell{
-		/*@editable*/ border-top:4px solid #BBBBBB;
+		/*@editable*/ border-top:1px solid #fff;
 		}
 
 		/**
@@ -51,7 +51,7 @@
 		* @tip Set the border for your email.
 		*/
 		#templateContainer{
-		/*@editable*/ border:1px solid #BBBBBB;
+		/*@editable*/ border:1px solid #fff;
 		}
 
 		/**
@@ -165,7 +165,7 @@
 		/*@editable*/ font-family:Helvetica;
 		/*@editable*/ font-size:10px;
 		/*@editable*/ line-height:125%;
-		/*@editable*/ text-align:left;
+		/*@editable*/ text-align: center;
 		}
 
 		/**
@@ -174,7 +174,7 @@
 		* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
 		*/
 		.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
-		/*@editable*/ color:#606060;
+		/*@editable*/ color:#1155CC;
 		/*@editable*/ font-weight:normal;
 		/*@editable*/ text-decoration:underline;
 		}
@@ -459,11 +459,13 @@
 									<!-- BEGIN PREHEADER // -->
 									<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader">
 										<tr>
-											<td valign="top" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:20px;" mc:edit="preheader_content00">
+											<td valign="top" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:2px; padding-left:20px;" mc:edit="preheader_content00">
 												*|MC:SUBJECT|*
 											</td>
+										</tr>
+										<tr>
 											<!-- *|IFNOT:ARCHIVE_PAGE|* -->
-											<td valign="top" width="180" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:0;" mc:edit="preheader_content01">
+											<td valign="top" class="preheaderContent" style="padding-top:2px; padding-right:20px; padding-bottom:10px; padding-left:0;" mc:edit="preheader_content01">
 												If you have trouble viewing this email please <a href="*|ARCHIVE|*" target="_blank">click here</a>.
 											</td>
 											<!-- *|END:IF|* -->
@@ -477,10 +479,10 @@
 									<!-- BEGIN HEADER // -->
 									<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
 										<tr>
-											<td valign="top" class="headerContent">
-												<img src="https://raw.githubusercontent.com/blockstack/email/design/images/blockstack-newsletter-logo%402x.png" style="max-width:240px;" id="logo" mc:label="header_image" mc:edit="logo" />
+											<td class="headerContent">
+												<img src="https://raw.githubusercontent.com/blockstack/email/design/images/blockstack-news-logo%402x.png" style="max-width:205px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowtext />
 											</td>
-											<td valign="top" class="headerSocial">
+											<td class="headerSocial">
 												<img src="http://gallery.mailchimp.com/2425ea8ad3/images/header_placeholder_600px.png" style="max-width:600px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
 											</td>
 										</tr>
