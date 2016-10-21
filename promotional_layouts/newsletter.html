@@ -345,6 +345,7 @@
 	* @theme footer
 	*/
 	#templateFooter{
+	padding-top:100px;
 	/*@editable*/ background-color:#2C113A;
 	/*@editable*/ border-top:1px solid #2C113A;
 	}
@@ -356,14 +357,14 @@
 	* @theme footer
 	*/
 	.footerContent{
-	/*@editable*/ color:#fff;
+	/*@editable*/ color:rgba(255,255,255,0.5);
 	/*@editable*/ font-family:"Courier New";
-	/*@editable*/ font-size:12px;
+	/*@editable*/ font-size:11px;
 	/*@editable*/ font-weight:normal;
 	/*@editable*/ line-height:150%;
 	padding-top:20px;
 	padding-right:30px;
-	padding-bottom:20px;
+	padding-bottom:70px;
 	padding-left:30px;
 	/*@editable*/ text-align:center;
 	}
@@ -374,7 +375,7 @@
 	* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
 	*/
 	.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
-	/*@editable*/ color:#483155;
+	/*@editable*/ color:#fff;
 	/*@editable*/ font-weight:normal;
 	/*@editable*/ text-decoration:underline;
 	}
@@ -955,10 +956,11 @@
 										</td>
 									</tr>
 									<tr>
-										<td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01">
+										<td valign="top" class="footerContent" style="padding-top:0;padding-bottom:15px;" mc:edit="footer_content01">
 										<em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
 										<br />
-										*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
+										<br />
+										You are receiving this email because of your opt-in on these respective websites or your relationship to Blockstack.<br />
 										<br />
 										<br />
 										<strong>Our mailing address is:</strong>
@@ -968,7 +970,8 @@
 									</tr>
 									<tr>
 										<td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content02">
-										<a href="*|UNSUB|*">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
+										Want to change how you receive these emails?<br />
+										You can <a href="*|UPDATE_PROFILE|*">preferences</a> or <a href="*|UNSUB|*">unsubscribe</a> from this list
 										</td>
 									</tr>
 								</table>
