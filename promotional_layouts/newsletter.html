@@ -64,7 +64,7 @@
 	/*@editable*/ color:#202020 !important;
 	display:block;
 	/*@editable*/ font-family:"Courier New";
-	/*@editable*/ font-size:24px;
+	/*@editable*/ font-size:28px;
 	/*@editable*/ font-style:normal;
 	/*@editable*/ font-weight:normal;
 	/*@editable*/ line-height:100%;
@@ -244,7 +244,7 @@
 	#templateFeatured{
 	/*@editable*/ background-color:#2C113A;
 	/*@editable*/ border-top:1px solid #2C113A;
-	/*@editable*/ border-bottom:1px solid #2C113A;
+	/*@editable*/ border-bottom:1px solid #483155;
 	}
 
 	/**
@@ -254,13 +254,13 @@
 	* @theme main
 	*/
 	.featuredContent{
-	/*@editable*/ color:#fff;
+	/*@editable*/ color:rgba(255,255,255,0.5);
 	/*@editable*/ font-family:"Courier New";
 	/*@editable*/ font-size:14px;
 	/*@editable*/ line-height:150%;
 	/*@editable*/ padding-top:40px;
 	/*@editable*/ padding-right:30px;
-	/*@editable*/ padding-bottom:40px;
+	/*@editable*/ padding-bottom:50px;
 	/*@editable*/ padding-left:30px;
 	/*@editable*/ text-align:left;
 	}
@@ -295,9 +295,9 @@
 	* @tip Set the background color and borders for your email's body area.
 	*/
 	#templateBody{
-	/*@editable*/ background-color:#fff;
-	/*@editable*/ border-top:1px solid #fff;
-	/*@editable*/ border-bottom:1px solid #fff;
+	/*@editable*/ background-color:#2C113A;
+	/*@editable*/ border-top:1px solid #2C113A;
+	/*@editable*/ border-bottom:1px solid #2C113A;
 	}
 
 	/**
@@ -307,7 +307,7 @@
 	* @theme main
 	*/
 	.bodyContent{
-	/*@editable*/ color:#505050;
+	/*@editable*/ color:rgba(255,255,255,0.5);
 	/*@editable*/ font-family:"Courier New";
 	/*@editable*/ font-size:14px;
 	/*@editable*/ line-height:150%;
@@ -316,7 +316,7 @@
 	/*@editable*/ padding-bottom:40px;
 	/*@editable*/ padding-left:30px;
 	/*@editable*/ text-align:left;
-	/*@editable*/ border-bottom:3px solid #2C113A;
+	/*@editable*/ border-bottom:1px solid #483155;
 	}
 
 	/**
@@ -325,7 +325,7 @@
 	* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
 	*/
 	.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
-	/*@editable*/ color:#1155CC;
+	/*@editable*/ color:#fff;
 	/*@editable*/ font-weight:normal;
 	/*@editable*/ text-decoration:underline;
 	}
@@ -359,12 +359,13 @@
 	/*@editable*/ color:#fff;
 	/*@editable*/ font-family:"Courier New";
 	/*@editable*/ font-size:12px;
+	/*@editable*/ font-weight:normal;
 	/*@editable*/ line-height:150%;
 	padding-top:20px;
 	padding-right:30px;
 	padding-bottom:20px;
 	padding-left:30px;
-	/*@editable*/ text-align:left;
+	/*@editable*/ text-align:center;
 	}
 
 	/**
@@ -525,7 +526,14 @@
 						<tr>
 							<!-- *|IFNOT:ARCHIVE_PAGE|* -->
 							<td valign="top" class="preheaderContent" style="padding-top:2px; padding-right:20px; padding-bottom:10px; padding-left:0;" mc:edit="preheader_content01">
-								If you have trouble viewing this email please <a href="*|ARCHIVE|*" target="_blank">click here</a>.
+								If you have trouble viewing this email please <a href="*|ARCHIVE|*" target="_blank">click here</a>. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="*|FORWARD|*">Forward to a friend</a>
+							</td>
+							<!-- *|END:IF|* -->
+						</tr>
+						<tr>
+							<!-- *|IFNOT:ARCHIVE_PAGE|* -->
+							<td valign="top" class="preheaderContent" style="padding-top:2px; padding-right:20px; padding-bottom:10px; padding-left:0;" mc:edit="preheader_content01">
+								
 							</td>
 							<!-- *|END:IF|* -->
 						</tr>
@@ -608,7 +616,7 @@
 																								<tbody>
 																									<tr>
 																										<td align="center" valign="middle" width="26" class="mcnFollowIconContent">
-																											<a href="http://twitter.com" target="_blank"><img src="https://raw.githubusercontent.com/blockstack/email/design/images/icon-twitter%402x.png" style="display:block;" height="36" width="24" class=""></a>
+																											<a href="http://twitter.com/blockstackorg/" target="_blank"><img src="https://raw.githubusercontent.com/blockstack/email/design/images/icon-twitter%402x.png" style="display:block;" height="36" width="24" class=""></a>
 																										</td>
 																									</tr>
 																								</tbody>
@@ -746,7 +754,7 @@
 												<tr>
 													<td valign="top">
 														<div mc:edit="std_content00">
-															<h2 class="h2">Blockstack in the Month of September — Top Tweets, Meetups and More</h2>
+															<h2 class="h2 type-inverse">Blockstack in the Month of September — Top Tweets, Meetups and More</h2>
 															This month, there were quite a few tweets mentioning Blockstack.
 														</div>
 													</td>
@@ -762,7 +770,7 @@
 												<tr>
 													<td valign="top">
 														<div mc:edit="std_content00">
-															<h2 class="h2">New blockstack.org website</h2>
+															<h2 class="h2 type-inverse">New blockstack.org website</h2>
 															After you enter your content, highlight the text you want to style and select the options you set in the style editor in the "styles" drop down box. Want to <a href="http://www.mailchimp.com/kb/article/im-using-the-style-designer-and-i-cant-get-my-formatting-to-change" target="_blank">get rid of styling on a bit of text</a>, but having trouble doing it? Just use the "remove formatting" button to strip the text of any formatting and reset your style.
 														</div>
 													</td>
@@ -783,6 +791,11 @@
 										<td valign="top" class="headerContent">
 											<table align="center" border="0" cellpadding="0" cellspacing="0">
 												<tbody>
+													<tr>
+														<td valign="top" class="footerContent" style="text-align:center;padding-top:0;padding-bottom:5px;" mc:edit="footer_content00">
+															Follow Blockstack
+														</td>
+													</tr>
 													<tr>
 														<td align="center" valign="top">
 															<table align="center" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
@@ -847,7 +860,7 @@
 																								<tbody>
 																									<tr>
 																										<td align="center" valign="middle" width="24" class="mcnFollowIconContent">
-																											<a href="http://twitter.com" target="_blank"><img src="https://raw.githubusercontent.com/blockstack/email/design/images/icon-twitter%402x.png" style="display:block;" height="36" width="24" class=""></a>
+																											<a href="http://twitter.com/blockstackorg/" target="_blank"><img src="https://raw.githubusercontent.com/blockstack/email/design/images/icon-twitter%402x.png" style="display:block;" height="36" width="24" class=""></a>
 																										</td>
 																									</tr>
 																								</tbody>
@@ -937,11 +950,6 @@
 															</table>
 														</td>
 													</tr>
-													<tr>
-										<td valign="top" class="footerContent" style="text-align:center;" mc:edit="footer_content00">
-											<a href="*|FORWARD|*">Forward to Friend</a>
-										</td>
-									</tr>
 												</tbody>
 											</table>
 										</td>
