@@ -258,7 +258,16 @@
 	/*@editable*/ font-family:"Courier New";
 	/*@editable*/ font-size:14px;
 	/*@editable*/ line-height:150%;
+	/*@editable*/ padding-top:40px;
+	/*@editable*/ padding-right:30px;
+	/*@editable*/ padding-bottom:40px;
+	/*@editable*/ padding-left:30px;
 	/*@editable*/ text-align:left;
+	}
+
+	.featuredImage{
+	/*@editable*/ border-top:1px solid #483155;
+	/*@editable*/ border-bottom:1px solid #483155;
 	}
 
 	/**
@@ -302,7 +311,12 @@
 	/*@editable*/ font-family:"Courier New";
 	/*@editable*/ font-size:14px;
 	/*@editable*/ line-height:150%;
+	/*@editable*/ padding-top:40px;
+	/*@editable*/ padding-right:30px;
+	/*@editable*/ padding-bottom:40px;
+	/*@editable*/ padding-left:30px;
 	/*@editable*/ text-align:left;
+	/*@editable*/ border-bottom:3px solid #2C113A;
 	}
 
 	/**
@@ -331,8 +345,8 @@
 	* @theme footer
 	*/
 	#templateFooter{
-	/*@editable*/ background-color:#fff;
-	/*@editable*/ border-top:1px solid #FFFFFF;
+	/*@editable*/ background-color:#2C113A;
+	/*@editable*/ border-top:1px solid #2C113A;
 	}
 
 	/**
@@ -342,9 +356,9 @@
 	* @theme footer
 	*/
 	.footerContent{
-	/*@editable*/ color:#808080;
+	/*@editable*/ color:#fff;
 	/*@editable*/ font-family:"Courier New";
-	/*@editable*/ font-size:10px;
+	/*@editable*/ font-size:12px;
 	/*@editable*/ line-height:150%;
 	padding-top:20px;
 	padding-right:30px;
@@ -359,7 +373,7 @@
 	* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
 	*/
 	.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
-	/*@editable*/ color:#606060;
+	/*@editable*/ color:#483155;
 	/*@editable*/ font-weight:normal;
 	/*@editable*/ text-decoration:underline;
 	}
@@ -697,21 +711,19 @@
 								<!-- BEGIN FEATURED // -->
 								<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFeatured">
 									<tr>
-										<td valign="top" class="featuredContent">
+										<td valign="top" class="featuredImage">
 											<img src="https://raw.githubusercontent.com/blockstack/email/design/images/featured-img%402x.jpg" style="max-width:598px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
 										</td>
 									</tr>
 									<tr>
 										<td valign="top" class="featuredContent">
 											<!-- // Begin Module: Standard Content \\ -->
-											<table border="0" cellpadding="30" cellspacing="0" width="100%">
+											<table border="0" cellpadding="0" cellspacing="0" width="100%">
 												<tr>
 													<td valign="top">
 														<div mc:edit="std_content00">
 															<h1 class="type-inverse">New blockstack.org website</h1>
-															<strong>Getting started:</strong> Customize your template by clicking on the style editor tabs up above. Set your fonts, colors, and styles. After setting your styling is all done you can click here in this area, delete the text, and start adding your own awesome content!
-															<br />
-															After you enter your content, highlight the text you want to style and select the options you set in the style editor in the "styles" drop down box. Want to <a href="http://www.mailchimp.com/kb/article/im-using-the-style-designer-and-i-cant-get-my-formatting-to-change" target="_blank">get rid of styling on a bit of text</a>, but having trouble doing it? Just use the "remove formatting" button to strip the text of any formatting and reset your style.
+															Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
 														</div>
 													</td>
 												</tr>
@@ -730,13 +742,27 @@
 									<tr>
 										<td valign="top" class="bodyContent">
 											<!-- // Begin Module: Standard Content \\ -->
-											<table border="0" cellpadding="30" cellspacing="0" width="100%">
+											<table border="0" cellpadding="0" cellspacing="0" width="100%">
+												<tr>
+													<td valign="top">
+														<div mc:edit="std_content00">
+															<h2 class="h2">Blockstack in the Month of September — Top Tweets, Meetups and More</h2>
+															This month, there were quite a few tweets mentioning Blockstack.
+														</div>
+													</td>
+												</tr>
+											</table>
+											<!-- // End Module: Standard Content \\ -->
+										</td>
+									</tr>
+									<tr>
+										<td valign="top" class="bodyContent">
+											<!-- // Begin Module: Standard Content \\ -->
+											<table border="0" cellpadding="0" cellspacing="0" width="100%">
 												<tr>
 													<td valign="top">
 														<div mc:edit="std_content00">
 															<h2 class="h2">New blockstack.org website</h2>
-															<strong>Getting started:</strong> Customize your template by clicking on the style editor tabs up above. Set your fonts, colors, and styles. After setting your styling is all done you can click here in this area, delete the text, and start adding your own awesome content!
-															<br />
 															After you enter your content, highlight the text you want to style and select the options you set in the style editor in the "styles" drop down box. Want to <a href="http://www.mailchimp.com/kb/article/im-using-the-style-designer-and-i-cant-get-my-formatting-to-change" target="_blank">get rid of styling on a bit of text</a>, but having trouble doing it? Just use the "remove formatting" button to strip the text of any formatting and reset your style.
 														</div>
 													</td>
