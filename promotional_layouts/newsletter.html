@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
+	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>*|MC:SUBJECT|*</title>
 	<style type="text/css">
@@ -63,10 +63,10 @@
 	h1{
 	/*@editable*/ color:#202020 !important;
 	display:block;
-	/*@editable*/ font-family:Helvetica;
-	/*@editable*/ font-size:26px;
+	/*@editable*/ font-family:"Courier New";
+	/*@editable*/ font-size:24px;
 	/*@editable*/ font-style:normal;
-	/*@editable*/ font-weight:bold;
+	/*@editable*/ font-weight:normal;
 	/*@editable*/ line-height:100%;
 	/*@editable*/ letter-spacing:normal;
 	margin-top:0;
@@ -83,12 +83,12 @@
 	* @style heading 2
 	*/
 	h2{
-	/*@editable*/ color:#404040 !important;
+	/*@editable*/ color:#404040;
 	display:block;
-	/*@editable*/ font-family:Helvetica;
+	/*@editable*/ font-family:"Courier New";
 	/*@editable*/ font-size:20px;
 	/*@editable*/ font-style:normal;
-	/*@editable*/ font-weight:bold;
+	/*@editable*/ font-weight:normal;
 	/*@editable*/ line-height:100%;
 	/*@editable*/ letter-spacing:normal;
 	margin-top:0;
@@ -107,7 +107,7 @@
 	h3{
 	/*@editable*/ color:#606060 !important;
 	display:block;
-	/*@editable*/ font-family:Helvetica;
+	/*@editable*/ font-family:"Courier New";
 	/*@editable*/ font-size:16px;
 	/*@editable*/ font-style:italic;
 	/*@editable*/ font-weight:normal;
@@ -129,7 +129,7 @@
 	h4{
 	/*@editable*/ color:#808080 !important;
 	display:block;
-	/*@editable*/ font-family:Helvetica;
+	/*@editable*/ font-family:"Courier New";
 	/*@editable*/ font-size:14px;
 	/*@editable*/ font-style:italic;
 	/*@editable*/ font-weight:normal;
@@ -140,6 +140,16 @@
 	margin-bottom:10px;
 	margin-left:0;
 	/*@editable*/ text-align:left;
+	}
+
+	/**
+	* @tab Page
+	* @section typography inverse
+	* @tip Set the inverse styling for all typography in your emails.
+	* @style typography inverse
+	*/
+	.type-inverse{
+	/*@editable*/ color:#fff !important;
 	}
 
 	/* ========== Header Styles ========== */
@@ -196,7 +206,7 @@
 	*/
 	.headerContent{
 	/*@editable*/ color:#505050;
-	/*@editable*/ font-family:Helvetica;
+	/*@editable*/ font-family:"Courier New";
 	/*@editable*/ font-size:20px;
 	/*@editable*/ font-weight:bold;
 	/*@editable*/ line-height:100%;
@@ -224,6 +234,50 @@
 	max-width:600px;
 	}
 
+	/* ========== Featured Styles ========== */
+
+	/**
+	* @tab Featured
+	* @section featured style
+	* @tip Set the background color and borders for your email's featured area.
+	*/
+	#templateFeatured{
+	/*@editable*/ background-color:#2C113A;
+	/*@editable*/ border-top:1px solid #2C113A;
+	/*@editable*/ border-bottom:1px solid #2C113A;
+	}
+
+	/**
+	* @tab Featured
+	* @section featured text
+	* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+	* @theme main
+	*/
+	.featuredContent{
+	/*@editable*/ color:#fff;
+	/*@editable*/ font-family:"Courier New";
+	/*@editable*/ font-size:14px;
+	/*@editable*/ line-height:150%;
+	/*@editable*/ text-align:left;
+	}
+
+	/**
+	* @tab Featured
+	* @section featured link
+	* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+	*/
+	.featuredContent a:link, .featuredContent a:visited, /* Yahoo! Mail Override */ .featuredContent a .yshortcuts /* Yahoo! Mail Override */{
+	/*@editable*/ color:#1155CC;
+	/*@editable*/ font-weight:normal;
+	/*@editable*/ text-decoration:underline;
+	}
+
+	.featuredContent img{
+	display:inline;
+	height:auto;
+	max-width:560px;
+	}
+
 	/* ========== Body Styles ========== */
 
 	/**
@@ -232,9 +286,9 @@
 	* @tip Set the background color and borders for your email's body area.
 	*/
 	#templateBody{
-	/*@editable*/ background-color:#F4F4F4;
-	/*@editable*/ border-top:1px solid #FFFFFF;
-	/*@editable*/ border-bottom:1px solid #CCCCCC;
+	/*@editable*/ background-color:#fff;
+	/*@editable*/ border-top:1px solid #fff;
+	/*@editable*/ border-bottom:1px solid #fff;
 	}
 
 	/**
@@ -245,7 +299,7 @@
 	*/
 	.bodyContent{
 	/*@editable*/ color:#505050;
-	/*@editable*/ font-family:Helvetica;
+	/*@editable*/ font-family:"Courier New";
 	/*@editable*/ font-size:14px;
 	/*@editable*/ line-height:150%;
 	/*@editable*/ text-align:left;
@@ -257,7 +311,7 @@
 	* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
 	*/
 	.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
-	/*@editable*/ color:#EB4102;
+	/*@editable*/ color:#1155CC;
 	/*@editable*/ font-weight:normal;
 	/*@editable*/ text-decoration:underline;
 	}
@@ -277,7 +331,7 @@
 	* @theme footer
 	*/
 	#templateFooter{
-	/*@editable*/ background-color:#F4F4F4;
+	/*@editable*/ background-color:#fff;
 	/*@editable*/ border-top:1px solid #FFFFFF;
 	}
 
@@ -289,13 +343,13 @@
 	*/
 	.footerContent{
 	/*@editable*/ color:#808080;
-	/*@editable*/ font-family:Helvetica;
+	/*@editable*/ font-family:"Courier New";
 	/*@editable*/ font-size:10px;
 	/*@editable*/ line-height:150%;
 	padding-top:20px;
-	padding-right:20px;
+	padding-right:30px;
 	padding-bottom:20px;
-	padding-left:20px;
+	padding-left:30px;
 	/*@editable*/ text-align:left;
 	}
 
@@ -312,7 +366,7 @@
 
 	/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
 
-	  @media only screen and (max-width: 480px){
+		@media only screen and (max-width: 480px){
 	/* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
 	body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
 		body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
@@ -330,8 +384,8 @@
 	* @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
 	*/
 	#templateContainer{
-	  max-width:600px !important;
-	  /*@editable*/ width:100% !important;
+		max-width:600px !important;
+		/*@editable*/ width:100% !important;
 	}
 
 	/**
@@ -340,8 +394,8 @@
 	* @tip Make the first-level headings larger in size for better readability on small screens.
 	*/
 	h1{
-	  /*@editable*/ font-size:24px !important;
-	  /*@editable*/ line-height:100% !important;
+		/*@editable*/ font-size:24px !important;
+		/*@editable*/ line-height:100% !important;
 	}
 
 	/**
@@ -350,8 +404,8 @@
 	* @tip Make the second-level headings larger in size for better readability on small screens.
 	*/
 	h2{
-	  /*@editable*/ font-size:20px !important;
-	  /*@editable*/ line-height:100% !important;
+		/*@editable*/ font-size:20px !important;
+		/*@editable*/ line-height:100% !important;
 	}
 
 	/**
@@ -360,8 +414,8 @@
 	* @tip Make the third-level headings larger in size for better readability on small screens.
 	*/
 	h3{
-	  /*@editable*/ font-size:18px !important;
-	  /*@editable*/ line-height:100% !important;
+		/*@editable*/ font-size:18px !important;
+		/*@editable*/ line-height:100% !important;
 	}
 
 	/**
@@ -370,8 +424,8 @@
 	* @tip Make the fourth-level headings larger in size for better readability on small screens.
 	*/
 	h4{
-	  /*@editable*/ font-size:16px !important;
-	  /*@editable*/ line-height:100% !important;
+		/*@editable*/ font-size:16px !important;
+		/*@editable*/ line-height:100% !important;
 	}
 
 	/* ======== Header Styles ======== */
@@ -384,9 +438,9 @@
 	* @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
 	*/
 	#headerImage{
-	  height:auto !important;
-	  /*@editable*/ max-width:600px !important;
-	  /*@editable*/ width:100% !important;
+		height:auto !important;
+		/*@editable*/ max-width:600px !important;
+		/*@editable*/ width:100% !important;
 	}
 
 	/**
@@ -395,8 +449,8 @@
 	* @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
 	*/
 	.headerContent{
-	  /*@editable*/ font-size:20px !important;
-	  /*@editable*/ line-height:125% !important;
+		/*@editable*/ font-size:20px !important;
+		/*@editable*/ line-height:125% !important;
 	}
 
 	/* ======== Body Styles ======== */
@@ -407,9 +461,9 @@
 	* @tip Make the main body image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
 	*/
 	#bodyImage{
-	  height:auto !important;
-	  /*@editable*/ max-width:560px !important;
-	  /*@editable*/ width:100% !important;
+		height:auto !important;
+		/*@editable*/ max-width:560px !important;
+		/*@editable*/ width:100% !important;
 	}
 
 	/**
@@ -418,8 +472,8 @@
 	* @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
 	*/
 	.bodyContent{
-	  /*@editable*/ font-size:18px !important;
-	  /*@editable*/ line-height:125% !important;
+		/*@editable*/ font-size:18px !important;
+		/*@editable*/ line-height:125% !important;
 	}
 
 	/* ======== Footer Styles ======== */
@@ -430,251 +484,282 @@
 	* @tip Make the body content text larger in size for better readability on small screens.
 	*/
 	.footerContent{
-	  /*@editable*/ font-size:14px !important;
-	  /*@editable*/ line-height:115% !important;
+		/*@editable*/ font-size:14px !important;
+		/*@editable*/ line-height:115% !important;
 	}
 
 	.footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
 	}
-  </style>
+	</style>
 
 
 
 
 <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
-  <center>
-    <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
-      <tr>
-        <td align="center" valign="top" id="bodyCell">
+	<center>
+		<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+			<tr>
+				<td align="center" valign="top" id="bodyCell">
 
-          <!-- BEGIN PREHEADER // -->
-          <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader">
-            <tr>
-              <td valign="top" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:2px; padding-left:20px;" mc:edit="preheader_content00">
-                *|MC:SUBJECT|*
-              </td>
-            </tr>
-            <tr>
-              <!-- *|IFNOT:ARCHIVE_PAGE|* -->
-              <td valign="top" class="preheaderContent" style="padding-top:2px; padding-right:20px; padding-bottom:10px; padding-left:0;" mc:edit="preheader_content01">
-                If you have trouble viewing this email please <a href="*|ARCHIVE|*" target="_blank">click here</a>.
-              </td>
-              <!-- *|END:IF|* -->
-            </tr>
-          </table>
-          <!-- // END PREHEADER -->
-          <!-- BEGIN TEMPLATE // -->
-          <table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
-            <tr>
-              <td align="center" valign="top">
-                <!-- BEGIN HEADER // -->
-                <table border="0" cellpadding="0" cellspacing="0" width="100%" height="100" id="templateHeader">
-                  <tr>
-                    <td valign="top" class="headerContent">
-                      <img src="https://raw.githubusercontent.com/blockstack/email/design/images/blockstack-news-logo%402x.png" style="max-width:205px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowtext />
-                    </td>
-                    <td valign="top" class="headerContent">
-                      <table align="right" border="0" cellpadding="0" cellspacing="0">
-                        <tbody>
-                          <tr>
-                            <td align="center" valign="top">
-                              <table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
-                                <tbody>
-                                  <tr>
-                                    <td valign="top" class="mcnFollowContentItemContainer">
-                                      <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowContentItem">
-                                        <tbody>
-                                          <tr>
-                                            <td align="left" valign="middle">
-                                              <table align="left" border="0" cellpadding="0" cellspacing="0" width="">
-                                                <tbody>
-                                                  <tr>
-                                                    <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
-                                                      <a href="http://chat.blockstack.org" target="_blank"><img src="https://raw.githubusercontent.com/blockstack/email/design/images/icon-slack%402x.png" style="display:block;" height="36" width="24" class=""></a>
-                                                    </td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
-                                <tbody>
-                                  <tr>
-                                    <td valign="top" class="mcnFollowContentItemContainer">
-                                      <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowContentItem">
-                                        <tbody>
-                                          <tr>
-                                            <td align="left" valign="middle">
-                                              <table align="left" border="0" cellpadding="0" cellspacing="0" width="">
-                                                <tbody>
-                                                  <tr>
-                                                    <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
-                                                      <a href="http://reddit.com/r/blockstack/" target="_blank"><img src="https://raw.githubusercontent.com/blockstack/email/design/images/icon-reddit%402x.png" style="display:block;" height="36" width="24" class=""></a>
-                                                    </td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
-                                <tbody>
-                                  <tr>
-                                    <td valign="top" class="mcnFollowContentItemContainer">
-                                      <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowContentItem">
-                                        <tbody>
-                                          <tr>
-                                            <td align="left" valign="middle">
-                                              <table align="left" border="0" cellpadding="0" cellspacing="0" width="">
-                                                <tbody>
-                                                  <tr>
-                                                    <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
-                                                      <a href="http://twitter.com" target="_blank"><img src="https://raw.githubusercontent.com/blockstack/email/design/images/icon-twitter%402x.png" style="display:block;" height="36" width="24" class=""></a>
-                                                    </td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
-                                <tbody>
-                                  <tr>
-                                    <td valign="top" class="mcnFollowContentItemContainer">
-                                      <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowContentItem">
-                                        <tbody>
-                                          <tr>
-                                            <td align="left" valign="middle">
-                                              <table align="left" border="0" cellpadding="0" cellspacing="0" width="">
-                                                <tbody>
-                                                  <tr>
-                                                    <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
-                                                      <a href="http://blog.blockstack.org/" target="_blank"><img src="https://raw.githubusercontent.com/blockstack/email/design/images/icon-medium%402x.png" style="display:block;" height="36" width="24" class=""></a>
-                                                    </td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
-                                <tbody>
-                                  <tr>
-                                    <td valign="top" class="mcnFollowContentItemContainer">
-                                      <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowContentItem">
-                                        <tbody>
-                                          <tr>
-                                            <td align="left" valign="middle">
-                                              <table align="left" border="0" cellpadding="0" cellspacing="0" width="">
-                                                <tbody>
-                                                  <tr>
-                                                    <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
-                                                      <a href="https://github.com/blockstack/blockstack" target="_blank"><img src="https://raw.githubusercontent.com/blockstack/email/design/images/icon-github%402x.png" style="display:block;" height="36" width="24" class=""></a>
-                                                    </td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
-                                <tbody>
-                                  <tr>
-                                    <td valign="top" class="mcnFollowContentItemContainer">
-                                      <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowContentItem">
-                                        <tbody>
-                                          <tr>
-                                            <td align="left" valign="middle">
-                                              <table align="left" border="0" cellpadding="0" cellspacing="0" width="">
-                                                <tbody>
-                                                  <tr>
-                                                    <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
-                                                      <a href="https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ" target="_blank"><img src="https://raw.githubusercontent.com/blockstack/email/design/images/icon-youtube%402x.png" style="display:block;" height="36" width="24" class=""></a>
-                                                    </td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-                <!-- // END HEADER -->
-              </td>
-            </tr>
-            <tr>
-            	<td align="center" valign="top">
-							  <!-- BEGIN FEATURED // -->
-							  <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFeatured">
-									<tr>
-									  <td valign="top" class="featuredContent">
-										<img src="https://raw.githubusercontent.com/blockstack/email/design/images/featured-img%402x.jpg" style="max-width:598px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
-									  </td>
-									</tr>
-							  </table>
-							  <!-- // END FEATURED -->
+					<!-- BEGIN PREHEADER // -->
+					<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader">
+						<tr>
+							<td valign="top" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:2px; padding-left:20px;" mc:edit="preheader_content00">
+								*|MC:SUBJECT|*
 							</td>
-            </tr>
-            <tr>
-            	<td align="center" valign="top">
-							  <!-- BEGIN BODY // -->
-							  <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
-									<tr>
-									  <td valign="top" class="bodyContent">
-										<img src="https://raw.githubusercontent.com/blockstack/email/design/images/featured-img%402x.jpg" style="max-width:598px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
-									  </td>
-									</tr>
-							  </table>
-							  <!-- // END BODY -->
+						</tr>
+						<tr>
+							<!-- *|IFNOT:ARCHIVE_PAGE|* -->
+							<td valign="top" class="preheaderContent" style="padding-top:2px; padding-right:20px; padding-bottom:10px; padding-left:0;" mc:edit="preheader_content01">
+								If you have trouble viewing this email please <a href="*|ARCHIVE|*" target="_blank">click here</a>.
 							</td>
-            </tr>
-            <tr>
-          	  <td align="center" valign="top">
-				  			<!-- BEGIN FOOTER // -->
-				  			<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
+							<!-- *|END:IF|* -->
+						</tr>
+					</table>
+					<!-- // END PREHEADER -->
+					<!-- BEGIN TEMPLATE // -->
+					<table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
+						<tr>
+							<td align="center" valign="top">
+								<!-- BEGIN HEADER // -->
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100" id="templateHeader">
 									<tr>
-									  <td valign="top" class="footerContent" mc:edit="footer_content00">
+										<td valign="top" class="headerContent">
+											<img src="https://raw.githubusercontent.com/blockstack/email/design/images/blockstack-news-logo%402x.png" style="max-width:205px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowtext />
+										</td>
+										<td valign="top" class="headerContent">
+											<table align="right" border="0" cellpadding="0" cellspacing="0">
+												<tbody>
+													<tr>
+														<td align="center" valign="top">
+															<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+																<tbody>
+																	<tr>
+																		<td valign="top" class="mcnFollowContentItemContainer">
+																			<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowContentItem">
+																				<tbody>
+																					<tr>
+																						<td align="left" valign="middle">
+																							<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+																								<tbody>
+																									<tr>
+																										<td align="center" valign="middle" width="24" class="mcnFollowIconContent">
+																											<a href="http://chat.blockstack.org" target="_blank"><img src="https://raw.githubusercontent.com/blockstack/email/design/images/icon-slack%402x.png" style="display:block;" height="36" width="24" class=""></a>
+																										</td>
+																									</tr>
+																								</tbody>
+																							</table>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+																<tbody>
+																	<tr>
+																		<td valign="top" class="mcnFollowContentItemContainer">
+																			<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowContentItem">
+																				<tbody>
+																					<tr>
+																						<td align="left" valign="middle">
+																							<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+																								<tbody>
+																									<tr>
+																										<td align="center" valign="middle" width="24" class="mcnFollowIconContent">
+																											<a href="http://reddit.com/r/blockstack/" target="_blank"><img src="https://raw.githubusercontent.com/blockstack/email/design/images/icon-reddit%402x.png" style="display:block;" height="36" width="24" class=""></a>
+																										</td>
+																									</tr>
+																								</tbody>
+																							</table>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+																<tbody>
+																	<tr>
+																		<td valign="top" class="mcnFollowContentItemContainer">
+																			<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowContentItem">
+																				<tbody>
+																					<tr>
+																						<td align="left" valign="middle">
+																							<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+																								<tbody>
+																									<tr>
+																										<td align="center" valign="middle" width="24" class="mcnFollowIconContent">
+																											<a href="http://twitter.com" target="_blank"><img src="https://raw.githubusercontent.com/blockstack/email/design/images/icon-twitter%402x.png" style="display:block;" height="36" width="24" class=""></a>
+																										</td>
+																									</tr>
+																								</tbody>
+																							</table>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+																<tbody>
+																	<tr>
+																		<td valign="top" class="mcnFollowContentItemContainer">
+																			<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowContentItem">
+																				<tbody>
+																					<tr>
+																						<td align="left" valign="middle">
+																							<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+																								<tbody>
+																									<tr>
+																										<td align="center" valign="middle" width="24" class="mcnFollowIconContent">
+																											<a href="http://blog.blockstack.org/" target="_blank"><img src="https://raw.githubusercontent.com/blockstack/email/design/images/icon-medium%402x.png" style="display:block;" height="36" width="24" class=""></a>
+																										</td>
+																									</tr>
+																								</tbody>
+																							</table>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+																<tbody>
+																	<tr>
+																		<td valign="top" class="mcnFollowContentItemContainer">
+																			<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowContentItem">
+																				<tbody>
+																					<tr>
+																						<td align="left" valign="middle">
+																							<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+																								<tbody>
+																									<tr>
+																										<td align="center" valign="middle" width="24" class="mcnFollowIconContent">
+																											<a href="https://github.com/blockstack/blockstack" target="_blank"><img src="https://raw.githubusercontent.com/blockstack/email/design/images/icon-github%402x.png" style="display:block;" height="36" width="24" class=""></a>
+																										</td>
+																									</tr>
+																								</tbody>
+																							</table>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+																<tbody>
+																	<tr>
+																		<td valign="top" class="mcnFollowContentItemContainer">
+																			<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowContentItem">
+																				<tbody>
+																					<tr>
+																						<td align="left" valign="middle">
+																							<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+																								<tbody>
+																									<tr>
+																										<td align="center" valign="middle" width="24" class="mcnFollowIconContent">
+																											<a href="https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ" target="_blank"><img src="https://raw.githubusercontent.com/blockstack/email/design/images/icon-youtube%402x.png" style="display:block;" height="36" width="24" class=""></a>
+																										</td>
+																									</tr>
+																								</tbody>
+																							</table>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<!-- // END HEADER -->
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="top">
+								<!-- BEGIN FEATURED // -->
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFeatured">
+									<tr>
+										<td valign="top" class="featuredContent">
+											<img src="https://raw.githubusercontent.com/blockstack/email/design/images/featured-img%402x.jpg" style="max-width:598px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+										</td>
+									</tr>
+									<tr>
+										<td valign="top" class="featuredContent">
+											<!-- // Begin Module: Standard Content \\ -->
+											<table border="0" cellpadding="30" cellspacing="0" width="100%">
+												<tr>
+													<td valign="top">
+														<div mc:edit="std_content00">
+															<h1 class="type-inverse">New blockstack.org website</h1>
+															<strong>Getting started:</strong> Customize your template by clicking on the style editor tabs up above. Set your fonts, colors, and styles. After setting your styling is all done you can click here in this area, delete the text, and start adding your own awesome content!
+															<br />
+															After you enter your content, highlight the text you want to style and select the options you set in the style editor in the "styles" drop down box. Want to <a href="http://www.mailchimp.com/kb/article/im-using-the-style-designer-and-i-cant-get-my-formatting-to-change" target="_blank">get rid of styling on a bit of text</a>, but having trouble doing it? Just use the "remove formatting" button to strip the text of any formatting and reset your style.
+														</div>
+													</td>
+												</tr>
+											</table>
+											<!-- // End Module: Standard Content \\ -->
+										</td>
+									</tr>
+								</table>
+								<!-- // END FEATURED -->
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="top">
+								<!-- BEGIN BODY // -->
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
+									<tr>
+										<td valign="top" class="bodyContent">
+											<!-- // Begin Module: Standard Content \\ -->
+											<table border="0" cellpadding="30" cellspacing="0" width="100%">
+												<tr>
+													<td valign="top">
+														<div mc:edit="std_content00">
+															<h2 class="h2">New blockstack.org website</h2>
+															<strong>Getting started:</strong> Customize your template by clicking on the style editor tabs up above. Set your fonts, colors, and styles. After setting your styling is all done you can click here in this area, delete the text, and start adding your own awesome content!
+															<br />
+															After you enter your content, highlight the text you want to style and select the options you set in the style editor in the "styles" drop down box. Want to <a href="http://www.mailchimp.com/kb/article/im-using-the-style-designer-and-i-cant-get-my-formatting-to-change" target="_blank">get rid of styling on a bit of text</a>, but having trouble doing it? Just use the "remove formatting" button to strip the text of any formatting and reset your style.
+														</div>
+													</td>
+												</tr>
+											</table>
+											<!-- // End Module: Standard Content \\ -->
+										</td>
+									</tr>
+								</table>
+								<!-- // END BODY -->
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="top">
+								<!-- BEGIN FOOTER // -->
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
+									<tr>
+										<td valign="top" class="footerContent" mc:edit="footer_content00">
 										<a href="*|TWITTER:PROFILEURL|*">Follow on Twitter</a>&nbsp;&nbsp;&nbsp;<a href="*|FACEBOOK:PROFILEURL|*">Friend on Facebook</a>&nbsp;&nbsp;&nbsp;<a href="*|FORWARD|*">Forward to Friend</a>&nbsp;
-									  </td>
+										</td>
 									</tr>
 									<tr>
-									  <td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01">
+										<td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01">
 										<em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
 										<br />
 										*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
@@ -683,22 +768,22 @@
 										<strong>Our mailing address is:</strong>
 										<br />
 										*|HTML:LIST_ADDRESS_HTML|* *|END:IF|* 
-									  </td>
+										</td>
 									</tr>
 									<tr>
-									  <td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content02">
+										<td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content02">
 										<a href="*|UNSUB|*">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
-									  </td>
+										</td>
 									</tr>
-				  			</table>
-				  			<!-- // END FOOTER -->
-				  		</td>
-				  	</tr>
-          </table>
-          <!-- // END TEMPLATE -->
-        </td>
-      </tr>
-    </table>
-  </center>
+								</table>
+								<!-- // END FOOTER -->
+							</td>
+						</tr>
+					</table>
+					<!-- // END TEMPLATE -->
+				</td>
+			</tr>
+		</table>
+	</center>
 </body>
 </html>
