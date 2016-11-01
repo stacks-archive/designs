@@ -13,9 +13,11 @@ Several quick start options are available:
 
 ### What's included
 
-Each project team has a directory, seen below, and in each of the team directories are projects. Each project contains 3 standard directories for quick navigation to find files that are; 
-* compositions or working files
-* proofs or final files
+Each project team has a directory, seen below, and in each of the team directories are projects. Each project contains 2 standard directories for quick navigation to find files that are; 
+* compositions or working files with the following filename structure
+  * [filename]-[Year][Month].ext
+  * Example: brand-1610.sketch
+* assets files
 * support and reference files
 
 ```
