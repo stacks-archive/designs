@@ -184,7 +184,7 @@
 	* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
 	*/
 	.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
-	/*@editable*/ color:#1155CC;
+	/*@editable*/ color:#2C96FF;
 	/*@editable*/ font-weight:normal;
 	/*@editable*/ text-decoration:underline;
 	}
@@ -197,6 +197,7 @@
 	*/
 	#templateHeader{
 	/*@editable*/ background-color:#fff;
+	height:100px;
 	}
 
 	/**
@@ -212,13 +213,13 @@
 	/*@editable*/ line-height:100%;
 	/*@editable*/ padding-top:25px;
 	/*@editable*/ padding-right:20px;
-	/*@editable*/ padding-bottom:25px;
+	/*@editable*/ padding-bottom:10px;
 	/*@editable*/ padding-left:20px;
-	/*@editable*/ text-align:left;
+	/*@editable*/ text-align:center;
 	/*@editable*/ vertical-align:top;
 	}
 	.headerContent img{
-	/*@editable*/ max-width:205px;
+	/*@editable*/ max-width:29px;
 	}
 
 	/**
@@ -227,14 +228,14 @@
 	* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
 	*/
 	.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
-	/*@editable*/ color:#080809;
+	/*@editable*/ color:#2C96FF;
 	/*@editable*/ font-weight:normal;
 	/*@editable*/ text-decoration:none;
 	}
 
 	#headerImage{
 	height:auto;
-	max-width:205px;
+	max-width:29px;
 	}
 
 	/* ========== Featured Styles ========== */
@@ -260,7 +261,7 @@
 	/*@editable*/ color:#080809;
 	/*@editable*/ font-family:Helvetica, sans-serif;
 	/*@editable*/ font-size:14px;
-	/*@editable*/ line-height:150%;
+	/*@editable*/ line-height:180%;
 	/*@editable*/ padding-top:40px;
 	/*@editable*/ padding-right:30px;
 	/*@editable*/ padding-bottom:50px;
@@ -279,7 +280,7 @@
 	* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
 	*/
 	.featuredContent a:link, .featuredContent a:visited, /* Yahoo! Mail Override */ .featuredContent a .yshortcuts /* Yahoo! Mail Override */{
-	/*@editable*/ color:#080809;
+	/*@editable*/ color:#2C96FF;
 	/*@editable*/ font-weight:normal;
 	/*@editable*/ text-decoration:none;
 	}
@@ -328,7 +329,7 @@
 	* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
 	*/
 	.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
-	/*@editable*/ color:#080809;
+	/*@editable*/ color:#2C96FF;
 	/*@editable*/ font-weight:normal;
 	/*@editable*/ text-decoration:none;
 	}
@@ -386,7 +387,7 @@
 	* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
 	*/
 	.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
-	/*@editable*/ color:#080809;
+	/*@editable*/ color:#2C96FF;
 	/*@editable*/ font-weight:normal;
 	/*@editable*/ text-decoration:none;
 	}
@@ -460,6 +461,16 @@
 	/*#templatePreheader{display:none !important;}*/ /* Hide the template preheader to save space */
 
 	/**
+	* @tab Header
+	* @section header style
+	* @tip Set the background color and borders for your email's header area.
+	* @theme header
+	*/
+	#templateHeader{
+	/*@editable*/ height:80px!important;
+	}
+
+	/**
 	* @tab Mobile Styles
 	* @section header image
 	* @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
@@ -481,7 +492,7 @@
 		/*@editable*/ line-height:125% !important;
 	}
 	.headerContent img{
-	/*@editable*/ max-width:180px !important;
+	/*@editable*/ max-width:29px !important;
 	}
 	.headerSocial{display:none !important;} /* Hide the social icons to save space */
 	}
@@ -506,7 +517,21 @@
 	*/
 	.featuredContent{
 		/*@editable*/ font-size:15px !important;
-		/*@editable*/ line-height:125% !important;
+		/*@editable*/ line-height:150% !important;
+	}
+
+	/**
+	* @tab Mobile Featured Styles
+	* @section featured text
+	* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+	* @theme main
+	*/
+	.featuredContent{
+	/*@editable*/ padding-right:0;
+	/*@editable*/ padding-bottom:50px;
+	/*@editable*/ padding-left:0;
+	/*@editable*/ text-align:left;
+	/*@editable*/ max-width:100%;
 	}
 
 	/* ======== Body Styles ======== */
@@ -577,10 +602,10 @@
 						<tr>
 							<td align="center" valign="top">
 								<!-- BEGIN HEADER // -->
-								<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100" id="templateHeader">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
 									<tr>
 										<td valign="top" class="headerContent">
-											<img src="https://media.githubusercontent.com/media/blockstack/designs/master/newsletter/images/blockstack-logo-landscape-rev%402x.png" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowtext />
+											<img src="https://media.githubusercontent.com/media/blockstack/designs/master/newsletter/images/blockstack-bug-rounded%402x.png" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowtext />
 										</td>
 									</tr>
 								</table>
