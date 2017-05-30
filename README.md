@@ -22,10 +22,13 @@ Join us in the journey by becoming a design contributor
   - [BlockstackDS (Design System) › Visit the repository](https://github.com/blockstack/design-system/issues/3)
   - [Install & Setup Git LFS](#install--setup-git-lfs)
 - Brand
-- Logo
-- Color
-- Typography & Fonts
-- Icons
+  - Hero Illustration
+  - Logo
+  - Color
+  - Typography & Fonts
+  - Illustrations
+  - Icons
+
 
 ## Quick links
 - [blockstack.org](http://blockstack.org)
