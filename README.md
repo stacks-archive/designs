@@ -4,7 +4,7 @@ Blockstack Design is an open source design cooperative led by designers, develop
 
 Join us in the journey by becoming a design contributor
 
-## Table of contents for App Developers
+## Table of contents (App Developers)
 
 - App Design System › Visit the repository
 - Markeing Guide
@@ -14,19 +14,19 @@ Join us in the journey by becoming a design contributor
 - Status bar
 - Icons
 
-## Table of contents for Design Contributors
+## Table of contents (Design Contributors)
 
 - [Contribute](/docs/contribute/README.md)
   - [Design Process](https://github.com/blockstack/designs/issues/267)
   - [Blockstack Brand Guide](https://github.com/blockstack/designs/issues/247)
   - [BlockstackDS (Design System) › Visit the repository](https://github.com/blockstack/design-system/issues/3)
- - [Install & Setup Git LFS](#install--setup-git-lfs)
+  - [Install & Setup Git LFS](#install--setup-git-lfs)
 - Brand
 - Logo
 - Color
 - Typography & Fonts
 - Icons
 
-### Quick links
+## Quick links
 - [blockstack.org](http://blockstack.org)
 - [Blockstack GitHub](https://github.com/blockstack/blockstack)

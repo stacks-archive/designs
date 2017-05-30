@@ -10,7 +10,7 @@ The following is a guide to get you up to speed on the Blockstack Open Source De
 - [Filenaming & directory structure](#filenaming--directory-structure)
 - [Install & Setup Git LFS](#install--setup-git-lfs)
 
-### Filenaming & directory structure
+## Filenaming & directory structure
 
 Each project team has a directory, seen below, and in each of the team directories are projects. Each project contains 2 standard directories for quick navigation to find files that are; 
 * compositions or working files with the following filename structure
@@ -32,7 +32,7 @@ design/
 
 ```
 
-### Install & Setup Git LFS:
+## Install & Setup Git LFS:
 
 [›› More info on Git LFS](https://git-lfs.github.com/)
 
