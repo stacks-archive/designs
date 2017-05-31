@@ -4,7 +4,7 @@ The following is a guide to get you up to speed on the Blockstack Open Source De
 
 ## Table of contents
 
-- [Design Process](https://github.com/blockstack/designs/issues/267)
+- [Open Source Design & design process](https://github.com/blockstack/designs/issues/267)
 - [Blockstack Brand Guide](https://github.com/blockstack/designs/issues/247)
 - [BlockstackDS (Design System) › Visit the repository](https://github.com/blockstack/design-system/issues/3)
 - [Filenaming & directory structure](#filenaming--directory-structure)
