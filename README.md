@@ -1,5 +1,7 @@
 # Blockstack Design
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 Blockstack Design is an open source design cooperative led by designers, developers, writers and enthusiasts of the Blockstack community and decentralized internet movement. We are working hard at building a more open and beautiful internet in a collaborative manner.
 
 Join us in the journey by becoming a design contributor
