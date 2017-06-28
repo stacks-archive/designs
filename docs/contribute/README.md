@@ -43,6 +43,8 @@ design/
 
 ```
 
+[^ Back To The Top](#table-of-contents)
+
 ## Install & Setup Git LFS:
 
 [›› More info on Git LFS](https://git-lfs.github.com/)
@@ -158,6 +160,8 @@ example-project1/* (.gitattributes)
 example-project2/* (.gitattributes)
 ```
 
+[^ Back To The Top](#table-of-contents)
+
 ## Using the issue tracker
 
 The [issue tracker](/issues) is the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests) and [submitting pull requests](#pull-requests), but please respect the following
@@ -177,7 +181,7 @@ restrictions:
 
 * Reduced test cases and potential fixes using [JS Bin](https://jsbin.com)
 
-## Issues and labels
+### Issues and labels
 
 Our bug tracker utilizes several labels to help organize and identify issues. Here's what they represent and how we use them:
 
@@ -197,6 +201,7 @@ Our bug tracker utilizes several labels to help organize and identify issues. He
 
 For a complete look at our labels, see the [project labels page](https://github.com/blockstack/designs/labels).
 
+[^ Back To The Top](#table-of-contents)
 
 ## Bug reports
 
@@ -233,11 +238,13 @@ Example:
 > causing the bug, and potential solutions (and your opinions on their
 > merits).
 
+[^ Back To The Top](#table-of-contents)
 
 ## Feature requests
 
 Feature requests are welcome. But take a moment to find out whether your idea fits with the scope and aims of the project. It's up to *you* to make a strong case to convince the project's developers of the merits of this feature. Please provide as much detail and context as possible, providing relevant links, prior art, or live demos whenever possible.
 
+[^ Back To The Top](#table-of-contents)
 
 ## Pull requests
 
@@ -297,7 +304,8 @@ Adhering to the following process is the best way to get your work included in t
    ```
 
 7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
-    with a clear title and description against the `design` branch.
+    with a clear title and description against the `master` branch. It would be preferred
+    that a reference to the issue be added as well.
 
 **IMPORTANT**: By submitting a patch, you agree to allow the project owners to
 license your work under the terms of the [MPL-2.0 License](https://github.com/blockstack/blockstack-browser/blob/master/LICENSE.md) (if it
@@ -305,6 +313,7 @@ includes code changes) and under the terms of the
 [Creative Commons Attribution 3.0 Unported License](docs/LICENSE.md)
 (if it includes documentation changes).
 
+[^ Back To The Top](#table-of-contents)
 
 ## Code guidelines
 
@@ -326,28 +335,25 @@ includes code changes) and under the terms of the
 
 Run `npm run dev` before committing to ensure your changes follow our coding standards.
 
+[^ Back To The Top](#table-of-contents)
+
 ## Maintainers
 
 <table>
   <tbody>
     <tr>
       <td align="center" valign="top">
-        <img width="150" height="150" src="https://github.com/shea256.png?s=150">
-        <br>
-        <a href="https://github.com/shea256">Ryan Shea</a>
-        <br>
-        <p>master branch</p>
-      </td>
-      <td align="center" valign="top">
         <img width="150" height="150" src="https://github.com/guylepage3.png?s=150">
         <br>
         <a href="https://github.com/guylepage3">Guy Lepage</a>
         <br>
-        <p>design branch</p>
+        <p>master branch</p>
       </td>
      </tr>
   </tbody>
 </table>
+
+[^ Back To The Top](#table-of-contents)
 
 ## License
 
