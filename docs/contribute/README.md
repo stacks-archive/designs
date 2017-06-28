@@ -11,6 +11,7 @@ Following these guidelines helps to communicate that you respect the time of eve
 - [Open Source Design & design process](https://github.com/blockstack/designs/issues/267)
 - [Blockstack Brand Guide](https://github.com/blockstack/designs/issues/247)
 - [BlockstackDS (Design System) › Visit the repository](https://github.com/blockstack/design-system/issues/3)
+- [Finding opportunities to contribute](#finding-opportunities-to-contribute)
 - [Filenaming & directory structure](#filenaming--directory-structure)
 - [Install & Setup Git LFS](#install--setup-git-lfs)
 - [Using the issue tracker](#using-the-issue-tracker)
@@ -20,6 +21,23 @@ Following these guidelines helps to communicate that you respect the time of eve
 - [Code guidelines](#code-guidelines)
 - [Maintainers](#maintainers)
 - [License](#license)
+
+## Finding opportunities to contribute
+
+There are two common ways to find opportunities to contribute:
+
+- [Project Boards](/projects)
+- [Issue Tracker](/issues)
+
+The project boards is a great place to start. Look for the version that has the label `current`
+and look for a ticket in the `To Do` column. This should link to the relative ticket.
+
+If the ticket your interested in is being worked, feel free to provide feedback.
+
+Otherwise, leave a comment addressing one of the [repo maintainers](#maintainers) to get
+the conversation started.
+
+[^ Back To The Top](#contributing-to-blockstack)
 
 ## Filenaming & directory structure
 
