@@ -304,7 +304,7 @@ Adhering to the following process is the best way to get your work included in t
    ```
 
 7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
-    with a clear title and description against the `master` branch. It would be preferred
+    with a clear title and description against the `design` branch. It would be preferred
     that a reference to the issue be added as well.
 
 **IMPORTANT**: By submitting a patch, you agree to allow the project owners to
