@@ -42,7 +42,7 @@ are positive you will find a place to helping us build a decentralized internet!
 
 [Just Ask!](http://chat.blockstack.org/)
 
-[^ Back To The Top](#contributing-to-blockstack)
+[^ Back To The Top](#contributing-to-blockstack-designs)
 
 ## Filenaming & directory structure
 
@@ -66,7 +66,7 @@ design/
 
 ```
 
-[^ Back To The Top](#contributing-to-blockstack)
+[^ Back To The Top](#contributing-to-blockstack-designs)
 
 ## Install & Setup Git LFS:
 
@@ -183,7 +183,7 @@ example-project1/* (.gitattributes)
 example-project2/* (.gitattributes)
 ```
 
-[^ Back To The Top](#contributing-to-blockstack)
+[^ Back To The Top](#contributing-to-blockstack-designs)
 
 ## Using the issue tracker
 
@@ -224,7 +224,7 @@ Our bug tracker utilizes several labels to help organize and identify issues. He
 
 For a complete look at our labels, see the [project labels page](https://github.com/blockstack/designs/labels).
 
-[^ Back To The Top](#contributing-to-blockstack)
+[^ Back To The Top](#contributing-to-blockstack-designs)
 
 ## Bug reports
 
@@ -261,13 +261,13 @@ Example:
 > causing the bug, and potential solutions (and your opinions on their
 > merits).
 
-[^ Back To The Top](#contributing-to-blockstack)
+[^ Back To The Top](#contributing-to-blockstack-designs)
 
 ## Feature requests
 
 Feature requests are welcome. But take a moment to find out whether your idea fits with the scope and aims of the project. It's up to *you* to make a strong case to convince the project's developers of the merits of this feature. Please provide as much detail and context as possible, providing relevant links, prior art, or live demos whenever possible.
 
-[^ Back To The Top](#contributing-to-blockstack)
+[^ Back To The Top](#contributing-to-blockstack-designs)
 
 ## Pull requests
 
@@ -342,7 +342,7 @@ includes code changes) and under the terms of the
 [Creative Commons Attribution 3.0 Unported License](docs/LICENSE.md)
 (if it includes documentation changes).
 
-[^ Back To The Top](#contributing-to-blockstack)
+[^ Back To The Top](#contributing-to-blockstack-designs)
 
 ## Code guidelines
 
@@ -364,7 +364,7 @@ includes code changes) and under the terms of the
 
 Run `npm run dev` before committing to ensure your changes follow our coding standards.
 
-[^ Back To The Top](#contributing-to-blockstack)
+[^ Back To The Top](#contributing-to-blockstack-designs)
 
 ## Maintainers
 
@@ -382,7 +382,7 @@ Run `npm run dev` before committing to ensure your changes follow our coding sta
   </tbody>
 </table>
 
-[^ Back To The Top](#contributing-to-blockstack)
+[^ Back To The Top](#contributing-to-blockstack-designs)
 
 ## License
 
