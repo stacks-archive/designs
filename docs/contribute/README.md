@@ -297,11 +297,11 @@ Adhering to the following process is the best way to get your work included in t
    git remote add upstream https://github.com/blockstack/designs.git
    ```
 
-2. If you cloned a while ago, get the latest changes from the `contribute` branch upstream:
+2. If you cloned a while ago, get the latest changes from the latest MINOR version branch upstream: (You can see what the latest MINOR version is [here](https://github.com/blockstack/blockstack.org/projects))
 
    ```bash
-   git checkout -b contribute
-   git pull upstream contribute
+   git checkout -b <latest MINOR version branch>
+   git pull upstream <latest MINOR version branch>
    ```
 
 3. Create a new topic branch (off the main project development branch) to
@@ -318,19 +318,19 @@ Adhering to the following process is the best way to get your work included in t
    [interactive rebase](https://help.github.com/articles/interactive-rebase)
    feature to tidy up your commits before making them public.
 
-5. Locally merge (or rebase) the upstream development branch into your topic branch:
+5. Locally merge the upstream latest MINOR version branch into your topic branch:
 
    ```bash
-   git pull [--rebase] upstream master
+   git pull upstream <latest MINOR version branch>
    ```
 
 6. Push your topic branch up to your fork:
 
    ```bash
-   git push origin <topic-branch-name>
+   git push origin <topic-branch-name>-<github-username>-patch
    ```
 
-7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/) against the `design` branch.a
+7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/) against the `design` branch.
     - Add a clear title and description
     - Include screenshots of the before and after if your changes include differences in HTML/CSS. Drag and drop the images into the body of your pull request.
     - Reference any relevant issues or supporting documentation in your PR (ex. “Closes #37.”)
