@@ -1,0 +1,25 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Italic
+FamilyName:Lato
+StyleName:Italic
+MenuName:Lato
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Lato Italic
+WritingScript:Roman
+OutlineFileName:\Lato-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:118352
+FileModTime:1292367600
+NameArray:0,Mac,4,Lato Italic
+NameArray:0,Win,1,Lato
+%EndFont
+
