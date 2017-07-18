@@ -234,7 +234,7 @@ Guidelines for bug reports:
 
 0. **Validate and lint your code** &mdash; [validate your HTML](https://html5.validator.nu) and [lint your HTML](https://github.com/twbs/bootlint) to ensure your problem isn't caused by a simple error in your own code.
 
-1. **Use the GitHub issue search** &mdash; [Search for duplicate or closed issues](https://github.com/blockstack/blockstack.org/issues?utf8=%E2%9C%93&q=is%3Aissue).
+1. **Use the GitHub issue search** &mdash; [Search for duplicate or closed issues](https://github.com/blockstack/designs/issues?utf8=%E2%9C%93&q=is%3Aissue).
 
 2. **Check if the issue has been fixed** &mdash; try to reproduce it using the latest `master`, `design` or development branch in the repository.
 
