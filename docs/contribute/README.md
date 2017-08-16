@@ -1,6 +1,6 @@
 # Contributing to Blockstack Designs
 
-Looking to contribute something to Blockstack? **Here's how you can help.**
+Looking to contribute something to Blockstack Designs? **Here's how you can help.**
 
 Please take a moment to review this document in order to make the contribution process easy and effective for everyone in the community.
 
@@ -194,33 +194,9 @@ restrictions:
 
 * Please **do not** derail or troll issues. Keep the discussion on topic and respect the opinions of others.
 
-* Please **do not** post comments consisting solely of "+1" or ":thumbsup:". Use [GitHub's "reactions" feature](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments) instead. We reserve the right to delete comments which violate this rule.
-
-### When reporting a bug, include:
-
-* Operating system and version (Windows, Mac OS X, Android, iOS, Win10 Mobile)
-
-* Browser and version (Chrome, Firefox, Safari, IE, MS Edge, Opera 15+, Android Browser)
-
-* Reduced test cases and potential fixes using [JS Bin](https://jsbin.com)
-
 ### Issues and labels
 
-Our bug tracker utilizes several labels to help organize and identify issues. Here's what they represent and how we use them:
-
-- `backlog` - Issues that have yet to be prioritized
-- `bug` - Issues where code is demonstrably a problem
-- `copywriting` - Issues that require the art of using words to promote the blockstack brand
-- `design` - Issues related to design
-- `documentation` - Issue that is specifically for addition, creation or editing of documentation
-- `duplicate` - Issues that have already been opened once already
-- `enhancement` - Issues that enhance the product
-- `feature-request` - Issue whenever a new feature is suggested
-- `help wanted` - Issues that require assistance
-- `ui` - Issues related to the user interface
-- `question` - Issues for general questions about blockstack
-- `versions (vX.X.X)` - Issues that are a part of a specific release
-- `wont-fix` - Issues that wont-fix
+Our bug tracker utilizes several labels to help organize and identify issues.
 
 For a complete look at our labels, see the [project labels page](https://github.com/blockstack/designs/labels).
 
@@ -239,6 +215,10 @@ Guidelines for bug reports:
 2. **Check if the issue has been fixed** &mdash; try to reproduce it using the latest `master`, `design` or development branch in the repository.
 
 3. **Isolate the problem** &mdash; ideally create a [reduced test case](https://css-tricks.com/reduced-test-cases/) and a live example. [This JS Bin](https://jsbin.com/lolome/edit?html,output) is a helpful template.
+
+4. **Include Browser and Version** (Chrome, Firefox, Safari, IE, MS Edge, Opera 15+, Android Browser).
+
+5. **Include Operating System and Version**
 
 
 A good bug report shouldn't leave others needing to chase you up for more information. Please try to be as detailed as possible in your report. What is your environment? What steps will reproduce the issue? What browser(s) and OS experience the problem? Do other browsers show the bug differently? What would you expect to be the outcome? All these details will help people to fix any potential bugs.
@@ -283,8 +263,6 @@ Please adhere to the [Blockstack Brand Guide](https://github.com/blockstack/desi
 
 When contributing to Blockstack's documentation, you should edit the documentation source files in [the `/app/` directory of the `master` branch](https://github.com/blockstack/designs/tree/master/app).
 
-**Prerequisites:** Make sure you have [git-flow downloaded](https://github.com/petervanderdoes/gitflow-avh/wiki/Installation) on your machine. [Here is a cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/) to familiarize yourself with the command line tool.
-
 Adhering to the following process is the best way to get your work included in the project:
 
 1. [Fork](https://help.github.com/fork-a-repo/) the project, clone your fork,
@@ -306,32 +284,11 @@ Adhering to the following process is the best way to get your work included in t
    git pull upstream develop
    ```
 
-3. Initiate git flow in the repository and set up a feature branch.
+3. Set up a feature branch. *Keep the feature name short yet descriptive to the issue*
 
-   ```bash
-   git flow init
-   Which branch should be used for bringing forth production releases?
-      - develop
-      - master
-   Branch name for production releases: [master] master
-
-   Which branch should be used for integration of the "next release"?
-      - develop
-      - master
-   Branch name for "next release" development: [develop] develop
-
-   How to name your supporting branch prefixes?
-   Feature branches? [feature/] issue-
-   Bugfix branches? [bugfix/] issue-
-   Release branches? [release/] issue-
-   Hotfix branches? [hotfix/] issue-
-   Support branches? [support/] issue-
-   Version tag prefix? []
-   ```
-
-   ```bash
-   git flow feature start <issue number>-<feature name>-<github username>
-   ```
+    ```bash
+    git checkout -b <feature-branch-name>
+    ```
 
 4. Commit your changes in logical chunks. Please adhere to these [git commit
    message guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
@@ -349,9 +306,9 @@ Adhering to the following process is the best way to get your work included in t
 
 6. Push your topic branch up to your fork:
 
-   ```bash
-   git push origin issue-<issue number>-<topic-branch-name>-<github-username>
-   ```
+    ```bash
+    git push origin <feature-branch-name>
+    ```
 
 7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/) against the `develop` branch.
     - Add a clear title and description
@@ -378,11 +335,7 @@ includes code changes) and under the terms of the
 
 ### JS
 
-- No semicolons (in client-side JS)
-- 2 spaces (no tabs)
-- strict mode
-- "Attractive"
-- Don't use jQuery (no "$" allowed)
+Our projects use [AirBnB's ESLint](http://eslint.org/) for JavaScript and React's JSX.
 
 ### Checking code
 
@@ -395,14 +348,17 @@ Run `npm run dev` before committing to ensure your changes follow our coding sta
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top">
-        <img width="150" height="150" src="https://github.com/guylepage3.png?s=150">
-        <br>
-        <a href="https://github.com/guylepage3">Guy Lepage</a>
-        <br>
-        <p>master branch</p>
+      <th>Maintainer</th>
+      <th>Github</th>
+    </tr>
+    <tr>
+      <td align="center">
+        Guy Lepage
       </td>
-     </tr>
+      <td align="center">
+        <a href="https://github.com/guylepage3">guylepage3</a>
+      </td>
+    </tr>
   </tbody>
 </table>
 

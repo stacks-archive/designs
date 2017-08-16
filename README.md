@@ -18,7 +18,7 @@ Join us in the journey by becoming a design contributor
 
 ## Table of contents (Design Contributors)
 
-- [Contribute](/docs/contribute/README.md)
+- [Contribute](#contributing)
   - [Open Source Design & design process](https://github.com/blockstack/designs/issues/267)
   - [Blockstack Brand Guide](https://github.com/blockstack/designs/issues/247)
   - [BlockstackDS (Design System) › Visit the repository](https://github.com/blockstack/design-system/issues/3)
@@ -35,3 +35,20 @@ Join us in the journey by becoming a design contributor
 ## Quick links
 - [blockstack.org](http://blockstack.org)
 - [Blockstack GitHub](https://github.com/blockstack/blockstack)
+
+## Contributing
+
+You can find opportunities to contribute on our [project board](https://github.com/blockstack/blockstack.org/projects) or [issue tracker](https://github.com/blockstack/blockstack.org/issues), or [Just Ask!](http://chat.blockstack.org/)
+
+Before reporting a bug, [follow these steps](https://capgemini.github.io/testing/effective-bug-reports/#tldr-version).
+
+This repository uses the [git flow branching mode](http://nvie.com/posts/a-successful-git-branching-model/).
+
+We suggest using the [git-flow-avh](https://github.com/petervanderdoes/gitflow-avh) plugin.
+
+Please send pull requests against `develop`. `master` will reflect the latest production code deployed to npm.
+
+Please be sure to write tests for your added features, that tests are all passing by running `gulp test`,
+lint your code using [ESLint](http://eslint.org/), and link the issue your feature/fix resolves in your pull request.
+
+For more details on how to contribute, checkout our [Contributing Guide](/docs/contribute/README.md)
