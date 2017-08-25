@@ -82,9 +82,9 @@ $ git lfs install
 To track files:
 
 ```bash
-$ git track '*.jpg' # track a filetype
-$ git track '*.jpeg' '*.png' # track multiple filetypes in one command
-$ git track 'example-project1/*' # track all files within a folder
+$ git lfs track '*.jpg' # track a filetype
+$ git lfs track '*.jpeg' '*.png' # track multiple filetypes in one command
+$ git lfs track 'example-project1/*' # track all files within a folder
 ```
 
 We have already set up tracking for most file types (found in the [.gitattribute](https://github.com/blockstack/designs/blob/master/.gitattributes) file).
