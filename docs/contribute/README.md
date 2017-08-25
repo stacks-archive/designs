@@ -170,8 +170,6 @@ Ensure that your pull requests are small components. This assists both with your
 
 Please adhere to the [Blockstack Brand Guide](https://github.com/blockstack/designs/issues/247), [coding guidelines](#code-guidelines) used throughout the project (indentation, accurate comments, etc.), and any other requirements (such as test coverage).
 
-When contributing to Blockstack's documentation, you should edit the documentation source files in [the `/app/` directory of the `master` branch](https://github.com/blockstack/designs/tree/master/app).
-
 Adhering to the following process is the best way to get your work included in the project:
 
 1. [Fork](https://help.github.com/fork-a-repo/) the project, clone your fork,
