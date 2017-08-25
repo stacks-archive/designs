@@ -72,7 +72,7 @@ design/
 
 Our projects use Git Large File Storage to manage project assets.
 
-First [download Git LFS](https://git-lfs.github.com/), then initialize it:
+First [download Git LFS](https://git-lfs.github.com/), then initialize it in the main project repo:
 
 ```bash
 $ cd ~/designs
