@@ -51,4 +51,6 @@ Please send pull requests against `develop`. `master` will reflect the latest pr
 Please be sure to write tests for your added features, that tests are all passing by running `gulp test`,
 lint your code using [ESLint](http://eslint.org/), and link the issue your feature/fix resolves in your pull request.
 
+If you plan on becoming a regular contributor, join our [Daily Design Standup!](https://github.com/blockstack/designs/labels/scrum)
+
 For more details on how to contribute, checkout our [Contributing Guide](/docs/contribute/README.md)
