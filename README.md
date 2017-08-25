@@ -38,7 +38,7 @@ Join us in the journey by becoming a design contributor
 
 ## Contributing
 
-You can find opportunities to contribute on our [project board](https://github.com/blockstack/blockstack.org/projects) or [issue tracker](https://github.com/blockstack/blockstack.org/issues), or [Just Ask!](http://chat.blockstack.org/)
+You can find opportunities to contribute on our [project board](https://github.com/blockstack/designs/projects) or [issue tracker](https://github.com/blockstack/designs/issues), or [Just Ask!](http://chat.blockstack.org/)
 
 Before reporting a bug, [follow these steps](https://capgemini.github.io/testing/effective-bug-reports/#tldr-version).
 
