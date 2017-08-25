@@ -70,118 +70,27 @@ design/
 
 ## Install & Setup Git LFS:
 
+Our projects use Git Large File Storage to manage project assets.
+
+First [download Git LFS](https://git-lfs.github.com/), then initialize it:
+
+```bash
+$ cd ~/designs
+$ git lfs install
+```
+
+To track files:
+
+```bash
+$ git track '*.jpg' # track a filetype
+$ git track '*.jpeg' '*.png' # track multiple filetypes in one command
+$ git track 'example-project1/*' # track all files within a folder
+```
+
+We have already set up tracking for most file types (found in the [.gitattribute](https://github.com/blockstack/designs/blob/master/.gitattributes) file).
+If your project does not have the tracking it needs, please contact the repo [maintainer](#maintainers).
+
 [›› More info on Git LFS](https://git-lfs.github.com/)
-
-NOTE: Each new project [example-project1] requires tracking setup. See examples at the bottom of the tracking list below
-
-* Files and folders to be tracked
-
-```
-*.sketch (.gitattributes)
-*.psd (.gitattributes)
-*.psb (.gitattributes)
-*.ai (.gitattributes)
-*.zip (.gitattributes)
-*.indd (.gitattributes)
-*.pdf (.gitattributes)
-*.ppt (.gitattributes)
-*.mov (.gitattributes)
-*.eps (.gitattributes)
-*.tif (.gitattributes)
-*.mp4 (.gitattributes)
-*.mp3 (.gitattributes)
-*.mv4 (.gitattributes)
-*.avi (.gitattributes)
-*.m4v (.gitattributes)
-*.aaf (.gitattributes)
-*.aep (.gitattributes)
-*.aet (.gitattributes)
-*.indl (.gitattributes)
-*.indt (.gitattributes)
-*.indb (.gitattributes)
-*.dmg (.gitattributes)
-*.xcodeproj (.gitattributes)
-*.png (.gitattributes)
-*.gif (.gitattributes)
-*.jpeg (.gitattributes)
-*.jpg (.gitattributes)
-*.svg (.gitattributes)
-*.tar.gz (.gitattributes)
-*.qxd (.gitattributes)
-*.asc (.gitattributes)
-*.csv (.gitattributes)
-*.doc (.gitattributes)
-*.dot (.gitattributes)
-*.gdoc (.gitattributes)
-*.pages (.gitattributes)
-*.myo (.gitattributes)
-*.myob (.gitattributes)
-*.tax (.gitattributes)
-*.ofx (.gitattributes)
-*.qif (.gitattributes)
-*.otf (.gitattributes)
-*.ttf (.gitattributes)
-*.woff (.gitattributes)
-*.ase (.gitattributes)
-*.bmp (.gitattributes)
-*.icns (.gitattributes)
-*.ico (.gitattributes)
-*.pict (.gitattributes)
-*.pdd (.gitattributes)
-*.tga (.gitattributes)
-*.tiff (.gitattributes)
-*.cdr (.gitattributes)
-*.ps (.gitattributes)
-*.gslides (.gitattributes)
-*.key (.gitattributes)
-*.keynote (.gitattributes)
-*.pez (.gitattributes)
-*.pot (.gitattributes)
-*.pptx (.gitattributes)
-*.thmx (.gitattributes)
-*.aiff (.gitattributes)
-*.wav (.gitattributes)
-*.m4a (.gitattributes)
-*.wma (.gitattributes)
-*.mp2 (.gitattributes)
-*.gsm (.gitattributes)
-*.aac (.gitattributes)
-*.swa (.gitattributes)
-*.vox (.gitattributes)
-*.psf (.gitattributes)
-*.band (.gitattributes)
-*.logic (.gitattributes)
-*.gsheet (.gitattributes)
-*.xlk (.gitattributes)
-*.xls (.gitattributes)
-*.xlsb (.gitattributes)
-*.xlsm (.gitattributes)
-*.xlsx (.gitattributes)
-*.xlt (.gitattributes)
-*.xltm (.gitattributes)
-*.xlw (.gitattributes)
-*.tsv (.gitattributes)
-*.asf (.gitattributes)
-*.dat (.gitattributes)
-*.flv (.gitattributes)
-*.fla (.gitattributes)
-*.mpeg (.gitattributes)
-*.mpg (.gitattributes)
-*.rm (.gitattributes)
-*.fcp (.gitattributes)
-*.ppj (.gitattributes)
-*.prproj (.gitattributes)
-*.imovieproj (.gitattributes)
-*.bin (.gitattributes)
-*.diff (.gitattributes)
-*.gzip (.gitattributes)
-*.rar (.gitattributes)
-*.tar (.gitattributes)
-*.img (.gitattributes)
-*.iso (.gitattributes)
-example-project1/* (.gitattributes)
-example-project2/* (.gitattributes)
-```
 
 [^ Back To The Top](#contributing-to-blockstack-designs)
 
