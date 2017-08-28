@@ -70,7 +70,7 @@ design/
 
 ## Install & Setup Git LFS:
 
-Our projects use Git Large File Storage to manage project assets.
+Blockstack Design uses Git Large File Storage to manage design files, compositions, support files and assets.
 
 First [download Git LFS](https://git-lfs.github.com/), then initialize it in the main project repo:
 
