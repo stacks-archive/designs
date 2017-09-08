@@ -19,8 +19,8 @@ Join us in the journey by becoming a design contributor
 - [Contribute](/docs/contribute/README.md)
   - [Open Source Design & design process](https://github.com/blockstack/designs/issues/267)
   - [Blockstack Brand Guide](https://github.com/blockstack/designs/issues/247)
-  - [Blockstack Design System › Visit the repository](https://github.com/blockstack/design-system)
-      [› View & contribute to the Documentation](https://github.com/blockstack/design-system/wiki)
+  - [Blockstack Design System](https://github.com/blockstack/design-system)  
+      [- Documentation](https://github.com/blockstack/design-system/wiki)
   - [Install & Setup Git LFS](#install--setup-git-lfs)
 - Brand
   - Hero Illustration
