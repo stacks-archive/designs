@@ -61,6 +61,10 @@
     max-width: 1140px;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   header {
     width: 100%;
     margin-right: auto;
@@ -78,6 +82,56 @@
     font-size: 36px;
     font-weight: 900;
     color: #00000C;
+  }
+
+  .btn, button {
+    outline: none !important;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+
+  .btn {
+    font-family: 'Lato', sans-serif;
+    padding: 15px 40px 14px;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 28px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+
+  .btn:hover, .btn:focus, .btn:active {
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: none;
+  }
+
+  .btn-primary {
+    color: #fff;
+    border: 1px solid #2C96FF;
+    background-color: #2C96FF;
+  }
+
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
+    background-color: #2378CC;
+    border: 1px solid #2378CC;
+    font-weight: 700;
   }
 
   .font-sm {
@@ -142,16 +196,16 @@
     <div class="container-fluid container-md" style="padding: 80px 50px; border: 1px solid #E6E6E6; border-radius: 6px;">
       <div class="container-fluid container-sm text-center">
         <h1>Sorry something went wrong.</h1>
-        <p>
+        <p style="margin-bottom: 50px;">
           The latest version of the Blockstack Browser may resolve the issue. Please download it here, and try again.
         </p>
-        <a href="https://blockstack.org/install" class="btn btn-primary">
+        <a href="https://blockstack.org/install" class="btn btn-primary" style="margin-bottom: 40px;">
           Download Blockstack
         </a>
          <p class="font-sm">
           Still having issues? Contact <a href="mailto:support@blockstack.com">support@blockstack.com</a>
         </p>
-        <p class="font-sm">
+        <p class="font-sm" style="display: none;">
           ::CLOUDFLARE_ERROR_500S_BOX::
         </p>
       </div>
