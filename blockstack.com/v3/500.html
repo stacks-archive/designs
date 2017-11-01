@@ -8,7 +8,7 @@
 
   <style type="text/css">
 
-  body {
+  html, body {
     padding: 0;
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -17,6 +17,7 @@
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     overflow: hidden;
+    color: #2E2E2E;
   }
 
   .container-fluid {
@@ -36,12 +37,29 @@
     margin-left: -15px;
   }
 
-  .container-xs{max-width:440px;}
-  .container-sm{max-width:540px;}
-  .container-md{max-width:720px;}
-  .container-primary{max-width:760px;}
-  .container-lg{max-width:960px;}
-  .container-xl{max-width:1140px;}
+  .container-xs {
+    max-width: 440px;
+  }
+
+  .container-sm {
+    max-width: 540px;
+  }
+
+  .container-md {
+    max-width: 720px;
+  }
+
+  .container-primary {
+    max-width: 760px;
+  }
+
+  .container-lg {
+    max-width: 960px;
+  }
+
+  .container-xl {
+    max-width: 1140px;
+  }
 
   header {
     width: 100%;
@@ -50,9 +68,16 @@
     padding-right: 15px;
     padding-left: 15px;
     padding: 20px;
+    margin-bottom: 50px;
     background-color: #270f34;
     text-align: center;
     color: #fff;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #00000C;
   }
 
   .text-center {
@@ -84,17 +109,19 @@
         </div>
       </div>
     </header>
-    <div class="container-fluid container-md" style="padding: 50px;">
-      <h1>Sorry something went wrong.</h1>
-      <p>
-        The latest version of the Blockstack Browser may resolve the issue. Please download it here, and try again.
-      </p>
-      <a href="https://blockstack.org/install" class="btn btn-primary">
-        Download Blockstack
-      </a>
-       <p>
-        Still having issues? Contact <a href="mailto:support@blockstack.com">support@blockstack.com</a>
-      </p>
+    <div class="container-fluid container-md" style="padding: 80px 50px; border: 1px solid #E6E6E6; border-radius: 6px;">
+      <div class="container-fluid container-sm text-center">
+        <h1>Sorry something went wrong.</h1>
+        <p>
+          The latest version of the Blockstack Browser may resolve the issue. Please download it here, and try again.
+        </p>
+        <a href="https://blockstack.org/install" class="btn btn-primary">
+          Download Blockstack
+        </a>
+         <p>
+          Still having issues? Contact <a href="mailto:support@blockstack.com">support@blockstack.com</a>
+        </p>
+      </div>
     </div>
 
     </div>
